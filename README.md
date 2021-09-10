@@ -1,6 +1,6 @@
 # Dogs
 
-## Project developed in the flexbox course at Origamid
+## Project developed in the complete react course at Origamid
 
 ## Skills
 
