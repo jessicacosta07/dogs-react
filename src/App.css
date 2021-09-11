@@ -10,11 +10,16 @@ body{
     font-family: var(--type-first);
 }
 
-h1, h2, h3, h4, p{
+h1, 
+h2, 
+h3, 
+h4, 
+p{
     margin: 0px;
 }
 
-ul, li{
+ul, 
+li{
     list-style: none;
     padding: 0px;
     margin: 0px;
@@ -25,11 +30,16 @@ img{
     max-width: 100%;
 }
 
-button, input{
+button,
+input{
     display: block;
     font-size: 1rem;
     font-family: var(--type-first);
     color: #333;
+}
+
+a{
+    text-decoration: none;
 }
 
 .container{
