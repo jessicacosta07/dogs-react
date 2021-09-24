@@ -1,18 +1,17 @@
 .form {
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: 1fr auto;
     align-items: stretch;
     margin: 1rem;
-}
-
-.single.form {
+  }
+  
+  .single.form {
     margin: 1rem 0;
-}
-
-.textarea {
+  }
+  
+  .textarea {
     display: block;
     width: 100%;
-    border: none;
     font-size: 1rem;
     font-family: var(--type-first);
     resize: none;
@@ -21,17 +20,17 @@
     border-radius: 0.2rem;
     background: #eee;
     transition: 0.2s;
-}
-
-.textarea:focus,
-.textarea:hover {
+  }
+  
+  .textarea:focus,
+  .textarea:hover {
     outline: none;
     border-color: #fb1;
-    background: #fff;
-    box-shadow: 0 0  0 3px #fea;
-}
-
-.button {
+    background: white;
+    box-shadow: 0 0 0 3px #fea;
+  }
+  
+  .button {
     border: none;
     cursor: pointer;
     color: #333;
@@ -39,30 +38,30 @@
     font-size: 1rem;
     padding: 0 1rem;
     overflow: hidden;
-}
-
-.button:focus svg,
-.button:hover svg {
+  }
+  
+  .button:focus,
+  .button:hover {
     outline: none;
-}
-
-.button:focus svg path,
-.button:hover svg path{
+  }
+  
+  .button:focus svg path,
+  .button:hover svg path {
     fill: #fea;
     stroke: #fb1;
-}
-
-.button:focus svg g,
-.button:hover svg g{
+  }
+  
+  .button:focus svg g,
+  .button:hover svg g {
     animation: latir 0.6s infinite;
-}
-
-@keyframes latir {
+  }
+  
+  @keyframes latir {
     from {
-        opacity: 0;
+      opacity: 0;
     }
-
     to {
-        opacity: 1;
+      opacity: 1;
     }
-}
+  }
+  

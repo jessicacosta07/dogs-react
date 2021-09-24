@@ -20,7 +20,7 @@ const User = () => {
                 <Route path="*" element={<NotFound />} />
             </Routes>
         </section>
-    );
-};
+    )
+}
 
-export default User;
+export default User

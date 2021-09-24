@@ -4,7 +4,9 @@ import styles from './Input.module.css'
 const Input = ({ label, type, name, value, onChange, error, onBlur }) => {
     return (
         <div className={styles.wrapper}>
-            <label htmlFor={label} className={styles.label}>{label}</label>
+            <label htmlFor={name} className={styles.label}>
+                {label}
+            </label>
             <input
                 id={name}
                 name={name}
@@ -12,7 +14,8 @@ const Input = ({ label, type, name, value, onChange, error, onBlur }) => {
                 type={type}
                 value={value}
                 onChange={onChange}
-                onBlur={onBlur} />
+                onBlur={onBlur}
+            />
             {error && <p className={styles.error}>{error}</p>}
         </div>
     )

@@ -8,7 +8,7 @@ const Feed = ({ user }) => {
     const [infinite, setInfinite] = React.useState(true)
 
     React.useEffect(() => {
-        let wait = false;
+        let wait = false
         function infiniteScroll() {
             if (infinite) {
                 const scroll = window.scrollY
@@ -28,7 +28,7 @@ const Feed = ({ user }) => {
         return () => {
             window.removeEventListener('wheel', infiniteScroll)
             window.removeEventListener('scroll', infiniteScroll)
-        };
+        }
     }, [infinite])
 
     return (
@@ -57,7 +57,7 @@ const Feed = ({ user }) => {
                 </p>
             )}
         </div>
-    );
-};
+    )
+}
 
-export default Feed;
+export default Feed

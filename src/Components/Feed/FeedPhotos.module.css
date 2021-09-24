@@ -4,10 +4,11 @@
     gap: 1rem;
     margin-bottom: 1rem;
     justify-items: center;
-}
-
-@media (max-width: 40rem) {
+  }
+  
+  @media (max-width: 40rem) {
     .feed {
-        grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(2, 1fr);
     }
-}
+  }
+  
