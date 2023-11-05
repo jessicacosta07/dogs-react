@@ -1,6 +1,6 @@
 # Dogs
 
-## Project developed in the complete react course - Origamid
+## Project developed in the complete react course
 
 ## Skills
 
